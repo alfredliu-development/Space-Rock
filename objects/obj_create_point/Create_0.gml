@@ -1,0 +1,1 @@
+global.your_point = 0
