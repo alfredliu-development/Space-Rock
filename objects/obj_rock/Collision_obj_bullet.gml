@@ -5,7 +5,7 @@ direction = random(300)
 
 if sprite_index == spr_rock_big {
     sprite_index = spr_rock_small
-    obj_gameplay.point += 10
+    obj_game.point += 10
     small_rock_index = irandom(3)
     
     for (var i = 0; i < small_rock_index; i++) {
@@ -20,5 +20,5 @@ else if instance_number(obj_rock) < 10 {
 
 else {
     instance_destroy(self)
-    obj_gameplay.point += 13
+    obj_game.point += 13
 }
